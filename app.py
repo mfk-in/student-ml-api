@@ -24,4 +24,4 @@ def predict():
         "predicted_score" : round(prediction[0], 2)
     })
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
